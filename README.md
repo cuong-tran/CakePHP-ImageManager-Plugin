@@ -4,13 +4,16 @@ CakePHP-ImageManager-Plugin
 ## Setting up
 
 ### Using Git
-####Put this into your Cake's plugin directory
+#### Put this into your Cake's plugin directory
 1. Go to your app/Plugin
 2. Donwload the whole source into it
-3. Or: ```shell git clone https://github.com/cuong-tran/CakePHP-ImageManager-Plugin.git ImageManager```
+3. Or using git:
+```bash
+git clone https://github.com/cuong-tran/CakePHP-ImageManager-Plugin.git ImageManager
+```
 4. Change name to ImageManager if not done yet
 
-####Requirement:
+#### Requirement:
 - Bootstrap: Put this in your Layout *<head></head>*
 ```html
 <!-- Latest compiled and minified CSS -->
