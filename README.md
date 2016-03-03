@@ -2,8 +2,31 @@ CakePHP-ImageManager-Plugin
 ===========================
 
 ## Setting up
-*Put this into your Cake's plugin directory*
 
+### Using Git
+####Put this into your Cake's plugin directory
+1. Go to your app/Plugin
+2. Donwload the whole source into it
+3. Or: ```shell git clone https://github.com/cuong-tran/CakePHP-ImageManager-Plugin.git ImageManager```
+4. Change name to ImageManager if not done yet
+
+####Requirement:
+- Bootstrap: Put this in your Layout *<head></head>*
+```html
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+```
+ - jQuery: Put this in your Layout *<head></head>*
+```html
+<script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
+<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+```
 
 ### In your model
 
